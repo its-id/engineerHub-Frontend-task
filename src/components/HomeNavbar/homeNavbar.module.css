@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  background: #002a36;
+  font-family: "Poppins", sans-serif;
+}
+
+.toggler {
+  background-color: #fff3f3;
+}
+
+.linksContainer {
+  align-items: center;
+}
+
+.userIcon {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.subNavbar {
+  display: none;
+}
+
+.subn {
+  display: flex;
+  justify-content: center;
+}
+
+.subn:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
+@media (max-width: 426px) {
+  .subNavbar {
+    width: 100%;
+    margin: auto 0;
+    background-color: #002a36;
+    display: flex;
+    padding: 5% 0;
+  }
+}
