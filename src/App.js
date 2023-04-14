@@ -9,7 +9,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomeLayout />} />
           <Route exact path="/:component" element={<HomeLayout />} />
-          <Route path="*" element={<Page404 />} />
+          {/* <Route path="*" element={<Page404 />} /> */}
         </Routes>
       </Router>
     </div>
