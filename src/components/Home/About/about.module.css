@@ -1,0 +1,106 @@
+.container {
+  background-image: url(https://www.engineerhub.in/static/media/aboutus.0525c51fa8117d9a630a.svg);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow-x: hidden;
+}
+
+.container > div {
+  margin: 0;
+}
+
+.header {
+  display: inline-block;
+  color: #05555e;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-left: 5%;
+  padding-top: 8%;
+}
+
+.aboutText {
+  color: #05555e;
+  font-family: Poppins;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 2rem;
+  margin-left: 7%;
+  margin-right: 5%;
+  margin-top: 1%;
+  text-align: left;
+}
+
+.secondRowContainer {
+  display: flex;
+  align-items: center;
+}
+
+.groupImg {
+  size: 1rem;
+  left: 10%;
+  position: relative;
+}
+
+.aboutBullets {
+  color: #05555e;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 2rem;
+  margin-right: 10%;
+  margin-top: 5%;
+  text-align: left;
+}
+
+.aboutBullets ul {
+  line-height: 1.9rem;
+  list-style: none;
+  list-style-image: url(https://www.engineerhub.in/static/media/Ellipse-7.4d3e788193fecb463b60.svg);
+}
+
+@media screen and (max-width: 426px) {
+  .header {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .aboutText,
+  .aboutBullets ul {
+    font-size: 12px;
+    line-height: 1.2rem;
+  }
+
+  .aboutBullets ul {
+    list-style-image: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutText,
+  .groupImg {
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutText {
+    margin: 0 0 7%;
+  }
+
+  .groupImg {
+    left: 20%;
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+}

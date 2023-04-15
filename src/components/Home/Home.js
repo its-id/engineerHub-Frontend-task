@@ -1,6 +1,8 @@
 import Colleges from "./Colleges/Colleges";
 import Hero from "./Hero/Hero";
 import Companies from "./Companies/Companies";
+import About from "./About/About";
+import Features from "./Features/Features";
 
 const Home = () => {
   return (
@@ -8,6 +10,8 @@ const Home = () => {
       <Hero />
       <Colleges />
       <Companies />
+      <About />
+      <Features />
     </>
   );
 };

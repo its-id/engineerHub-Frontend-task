@@ -73,7 +73,6 @@ const collegeData = [
 ];
 
 const Colleges = () => {
-
   return (
     <div className={styles.container}>
       <div className={styles.header}>Our students come from</div>
