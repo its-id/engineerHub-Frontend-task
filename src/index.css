@@ -10,7 +10,7 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(186deg, #e6eff8, #f6f9fe);
+  background: linear-gradient(186deg, #e6f2fa, #f6f9fe);
 }
 
 code {
@@ -20,4 +20,21 @@ code {
 /* NAVBAR USER ICON ARROW CSS */
 .dropdown-toggle::after {
   color: white !important;
+}
+
+/* CAROUSEL DEFAULT CSS OVERRIDE */
+.carousel-indicators {
+  display: none !important;
+}
+
+.carousel-control-prev {
+  /* left: -50px; */
+  padding-left: 2%;
+  justify-content: start;
+}
+
+.carousel-control-next {
+  /* right: -50px; */
+  padding-right: 2%;
+  justify-content: end;
 }
