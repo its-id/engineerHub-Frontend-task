@@ -28,10 +28,10 @@ const Resources = ({ title, desc, data }) => {
           breakpoints={{
             768: {
               slidesPerView: 2,
-              spaceBetween: 10,
+              spaceBetween: 60,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 80,
             },
           }}
