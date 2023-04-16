@@ -8,30 +8,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 import styles from "./features.module.css";
 
-const features = [
-  {
-    title: "Free Mentorship by IITians & NITians",
-    desc: "Mentors excel in counselling beginners in their respective fields of interest by providing them with basic guidelines to help them enhance their skills & expand their knowledge about the placement criteria.",
-  },
-  {
-    title: "Internship & Job Updates",
-    desc: "We regularly notify students about appropriate internships & job updates based on their keen interests which helps them sort their priorities, manage time & get updates from verified resources.",
-  },
-  {
-    title: "Live Courses",
-    desc: "We provide live sessions of various courses of major importance in the field of engineering. In addition to doubt clearing facilities with our mentors, students can avail themselves lifetime access to these sessions to help them in future.",
-  },
-  {
-    title: "Magzines & Handbooks",
-    desc: "We issue various magazines & handbooks regularly that contribute to expanding students' knowledge & learning. These magazines & handbooks are provided by trustworthy resources for the benefit of students.",
-  },
-  {
-    title: "Campus Connectivity",
-    desc: "At engineeHUB , we connect all the IITs, NITs & State Colleges to facilitate students with a competitive environment to allow them productive discussions about their respective fields of knowledge.",
-  },
-];
-
-const Features = () => {
+const Features = ({ features }) => {
   useEffect(() => {
     AOS.init();
   }, []);

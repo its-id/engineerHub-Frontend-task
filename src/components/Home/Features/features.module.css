@@ -1,5 +1,5 @@
 .container {
-  margin: 4% 0;
+  margin-top: 4%;
   padding: 0 !important;
   background: #013c4c;
 }
@@ -104,7 +104,6 @@
     align-items: center;
   }
 
-
   .contentDesc {
     line-height: 2.2rem;
     margin-left: 9%;
@@ -138,6 +137,10 @@
 @media (min-width: 200px) and (max-width: 426px) {
   .contactHeader {
     font-size: 13px;
+  }
+
+  .contentHeader {
+    font-size: 24px;
   }
 
   .contentDesc {

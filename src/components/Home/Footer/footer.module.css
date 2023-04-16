@@ -1,0 +1,62 @@
+.container {
+  background-color: #002a36;
+}
+
+.header {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -1.8px;
+}
+
+.leftCol,
+.middleCol {
+  border-right: 1px solid #c1c1c1;
+}
+
+.desc,
+.links {
+  color: #c1c1c1;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.socialContainer {
+  margin-bottom: 0;
+}
+
+.socials {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialIcon:hover {
+  color: #0d6efd;
+}
+
+.btnContainers {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .leftCol {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .leftCol,
+  .middleCol {
+    border: none;
+  }
+
+  .btnContainers {
+    justify-content: center;
+  }
+}
